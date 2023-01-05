@@ -364,3 +364,9 @@ tile_data = PoolIntArray( 196616, 13, 0, 196617, 14, 0, 196618, 15, 0, 393217, 0
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 88, 79 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
